@@ -1,9 +1,11 @@
-a=raw_input()
-b=raw_input()
-c=raw_input()
-if a>b and a>c:
-    print a,"is largest"
-elif b>a and b>c:
-    print b,"is largest"
+num1 = 10
+num2 = 14
+num3 = 12
+if (num1 >= num2) and (num1 >= num3):
+   largest = num1
+elif (num2 >= num1) and (num2 >= num3):
+   largest = num2
 else:
-    print c,"is largest"
+   largest = num3
+
+print largest
